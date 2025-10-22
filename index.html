@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MindLab | Advanced Genomics Research</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body
+    class="bg-white dark:bg-gray-900 text-gray-800 dark:text-gray-200 antialiased"
+  >
+    <header
+      class="sticky top-0 z-50 w-full border-b border-gray-200 dark:border-gray-800 bg-white/80 dark:bg-gray-900/80 backdrop-blur-sm"
+    >
+      <nav
+        class="container mx-auto px-6 py-4 flex justify-between items-center"
+      >
+        <a
+          href="#home"
+          class="text-2xl font-bold text-gray-900 dark:text-white"
+        >
+          MindLab
+        </a>
+
+        <div class="hidden md:flex space-x-6 lg:space-x-8 items-center">
+          <a
+            href="#home"
+            class="text-gray-600 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400 transition-colors"
+            >Home</a
+          >
+          <a
+            href="#research"
+            class="text-gray-600 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400 transition-colors"
+            >Research</a
+          >
+          <a
+            href="#publications"
+            class="text-gray-600 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400 transition-colors"
+            >Publications</a
+          >
+          <a
+            href="#events"
+            class="text-gray-600 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400 transition-colors"
+            >Events</a
+          >
+          <a
+            href="#team"
+            class="text-gray-600 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400 transition-colors"
+            >Team</a
+          >
+          <a
+            href="#contact"
+            class="bg-blue-600 text-white px-4 py-2 rounded-md font-medium hover:bg-blue-700 transition-colors"
+          >
+            Contact Us
+          </a>
+        </div>
+
+        <div class="md:hidden">
+          <button
+            id="menu-btn"
+            class="text-gray-900 dark:text-white"
+            aria-label="Open menu"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-6 w-6"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h16m-7 6h7"
+              />
+            </svg>
+          </button>
+        </div>
+      </nav>
+
+      <div
+        id="mobile-menu"
+        class="hidden md:hidden bg-white dark:bg-gray-900 border-t border-gray-200 dark:border-gray-800"
+      >
+        <a
+          href="#home"
+          class="block px-6 py-3 text-gray-600 dark:text-gray-300 hover:bg-gray-50 dark:hover:bg-gray-800"
+          >Home</a
+        >
+        <a
+          href="#research"
+          class="block px-6 py-3 text-gray-600 dark:text-gray-300 hover:bg-gray-50 dark:hover:bg-gray-800"
+          >Research</a
+        >
+        <a
+          href="#publications"
+          class="block px-6 py-3 text-gray-600 dark:text-gray-300 hover:bg-gray-50 dark:hover:bg-gray-800"
+          >Publications</a
+        >
+        <a
+          href="#events"
+          class="block px-6 py-3 text-gray-600 dark:text-gray-300 hover:bg-gray-50 dark:hover:bg-gray-800"
+          >Events</a
+        >
+        <a
+          href="#team"
+          class="block px-6 py-3 text-gray-600 dark:text-gray-300 hover:bg-gray-50 dark:hover:bg-gray-800"
+          >Team</a
+        >
+        <a
+          href="#contact"
+          class="block px-6 py-3 text-gray-600 dark:text-gray-300 hover:bg-gray-50 dark:hover:bg-gray-800"
+          >Contact Us</a
+        >
+      </div>
+    </header>
+
+    <main>
+      <section
+        id="home"
+        class="container mx-auto px-6 pt-24 pb-20 md:pt-32 md:pb-28 text-center"
+      >
+        <h1
+          class="text-4xl md:text-6xl lg:text-7xl font-black text-gray-900 dark:text-white mb-6 leading-tight"
+        >
+          Decoding the Blueprint of Life
+        </h1>
+        <p
+          class="text-lg md:text-xl text-gray-600 dark:text-gray-400 max-w-3xl mx-auto mb-10"
+        >
+          MindLab for Advanced Genomics Research leverages computation and
+          high-throughput sequencing to understand complex biological systems.
+        </p>
+        <a
+          href="#research"
+          class="bg-blue-600 text-white px-8 py-3 rounded-md text-lg font-semibold hover:bg-blue-700 transition-transform hover:scale-105 transform"
+        >
+          Explore Our Research
+        </a>
+      </section>
+
+      <section id="research" class="py-20 bg-gray-50 dark:bg-gray-800">
+        <div class="container mx-auto px-6">
+          <div class="text-center mb-16">
+            <span
+              class="text-blue-500 dark:text-blue-400 font-semibold uppercase tracking-wider"
+              >Our Focus</span
+            >
+            <h2
+              class="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mt-2"
+            >
+              Research Pillars
+            </h2>
+          </div>
+          <div
+            id="research-grid"
+            class="grid grid-cols-1 md:grid-cols-3 gap-8"
+          ></div>
+        </div>
+      </section>
+
+      <section id="publications" class="py-20">
+        <div class="container mx-auto px-6">
+          <div class="text-center mb-16">
+            <span
+              class="text-blue-500 dark:text-blue-400 font-semibold uppercase tracking-wider"
+              >Our Work</span
+            >
+            <h2
+              class="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mt-2"
+            >
+              Recent Publications
+            </h2>
+          </div>
+          <div id="publications-list" class="max-w-4xl mx-auto space-y-6"></div>
+        </div>
+      </section>
+
+      <section id="events" class="py-20 bg-gray-50 dark:bg-gray-800">
+        <div class="container mx-auto px-6">
+          <div class="text-center mb-16">
+            <span
+              class="text-blue-500 dark:text-blue-400 font-semibold uppercase tracking-wider"
+              >What's Next</span
+            >
+            <h2
+              class="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mt-2"
+            >
+              Upcoming Events
+            </h2>
+          </div>
+          <div
+            id="events-grid"
+            class="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8"
+          ></div>
+        </div>
+      </section>
+
+      <section id="team" class="py-20">
+        <div class="container mx-auto px-6">
+          <div class="text-center mb-16">
+            <span
+              class="text-blue-500 dark:text-blue-400 font-semibold uppercase tracking-wider"
+              >The Lab</span
+            >
+            <h2
+              class="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mt-2"
+            >
+              Meet Our Team
+            </h2>
+          </div>
+
+          <div id="pi-section" class="max-w-4xl mx-auto mb-16"></div>
+
+          <div
+            id="team-grid"
+            class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8"
+          >
+            <div
+              class="text-center bg-blue-50 dark:bg-blue-900/30 p-6 rounded-lg border-2 border-dashed border-blue-400 dark:border-blue-700 flex flex-col justify-center items-center"
+            >
+              <h4
+                class="text-xl font-semibold text-blue-800 dark:text-blue-200"
+              >
+                You?
+              </h4>
+              <p class="text-blue-700 dark:text-blue-300 mt-2 mb-4">
+                We're always looking for passionate researchers.
+              </p>
+              <a
+                href="#contact"
+                class="bg-blue-600 text-white px-4 py-2 rounded-md font-medium hover:bg-blue-700 transition-colors"
+              >
+                Join Us
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="py-20 bg-gray-50 dark:bg-gray-800">
+        <div class="container mx-auto px-6">
+          <div class="text-center mb-16">
+            <span
+              class="text-blue-500 dark:text-blue-400 font-semibold uppercase tracking-wider"
+              >Get in Touch</span
+            >
+            <h2
+              class="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mt-2"
+            >
+              Contact & Opportunities
+            </h2>
+          </div>
+
+          <div
+            class="max-w-3xl mx-auto text-center bg-white dark:bg-gray-900 p-10 rounded-lg shadow-lg border border-gray-200 dark:border-gray-700"
+          >
+            <p class="text-lg text-gray-600 dark:text-gray-400 mb-6">
+              We are actively recruiting talented postdoctoral fellows and
+              graduate students with backgrounds in computational biology,
+              machine learning, and molecular biology.
+            </p>
+            <p class="text-lg text-gray-600 dark:text-gray-400 mb-8">
+              Please send your CV and a brief statement of interest to:
+            </p>
+            <a
+              href="mailto:e.kestrel@university.edu"
+              class="text-2xl font-semibold text-blue-600 dark:text-blue-400 hover:underline"
+            >
+              e.kestrel@university.edu
+            </a>
+
+            <div class="border-t dark:border-gray-700 my-8"></div>
+
+            <h4
+              class="text-xl font-semibold text-gray-900 dark:text-white mb-3"
+            >
+              Our Location
+            </h4>
+            <p class="text-gray-600 dark:text-gray-400">
+              MindLab
+              <br />
+              Biotech Research Building, Room 505
+              <br />
+              123 University Drive
+              <br />
+              City, State, 12345
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer
+      class="bg-gray-100 dark:bg-gray-800 border-t border-gray-200 dark:border-gray-700"
+    >
+      <div
+        class="container mx-auto px-6 py-8 text-center text-gray-500 dark:text-gray-400"
+      >
+        <p class="mb-2">&copy; 2025 MindLab. All rights reserved.</p>
+        <p class="text-sm">
+          Affiliated with the
+          <a
+            href="#"
+            class="font-medium hover:underline text-blue-600 dark:text-blue-400"
+            >Department of Genomic Sciences</a
+          >
+          at the
+          <a
+            href="#"
+            class="font-medium hover:underline text-blue-600 dark:text-blue-400"
+            >Institute for Medical Research</a
+          >.
+        </p>
+      </div>
+    </footer>
+
+    <script src="app.js" type="module"></script>
+  </body>
+</html>
