@@ -81,7 +81,7 @@
         "name": "Fatemeh Moaven",
         "title": "Ph.D. Student",
         "bio": "Ph.D. Student @ Amirkabir University of Technology",
-        "imageUrl": "images/people/Fatemehmoaven.jpg",
+        "imageUrl": "./images/people/Fatemehmoaven.jpg",
         "scholarUrl": "https://scholar.google.com/citations?user=Gg-sY0MAAAAJ&hl=en",
         "githubUrl": "https://github.com/FatemehMoaven"
       },
