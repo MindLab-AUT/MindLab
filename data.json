@@ -1,93 +1,206 @@
 {
   "labName": "MindLab",
-  "piName": "E. R. Kestrel",
+  "piName": "Mostafa Abbaszadeh",
   "researchPillars": [
     {
       "iconSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-10 w-10\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-width=\"2\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m-2 6h2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z\" /></svg>",
-      "title": "AI-Driven Drug Discovery",
-      "description": "We build and apply deep learning models to screen vast chemical libraries, identifying novel therapeutic candidates for genetic diseases."
+      "title": "Machine Learning in Biology",
+      "description": "Developing novel AI models to analyze complex biological data, from genomics and proteomics to medical imaging analysis."
     },
     {
-      "iconSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-10 w-10\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M4.5 12.25l3.32-3.32a2.25 2.25 0 013.18 0l3.32 3.32a2.25 2.25 0 010 3.18l-3.32 3.32a2.25 2.25 0 01-3.18 0L4.5 15.43a2.25 2.25 0 010-3.18z\"/><path d=\"M12.25 4.5l3.32 3.32a2.25 2.25 0 010 3.18l-3.32 3.32a2.25 2.25 0 01-3.18 0L5.77 7.82a2.25 2.25 0 010-3.18z\"/></svg>",
-      "title": "CRISPR Systems Biology",
-      "description": "Developing next-generation CRISPR-Cas9 functional genomic screens to map complex gene regulatory networks at scale."
+      "iconSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-10 w-10\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-width=\"2\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M9 7h6m0 10v-3m-3 3h3m-3-10h.01M9 10h.01M12 10h.01M15 10h.01M9 13h.01M12 13h.01M15 13h.01M4 7a2 2 0 012-2h12a2 2 0 012 2v10a2 2 0 01-2 2H6a2 2 0 01-2-2V7z\" /></svg>",
+      "title": "Numerical Methods for Complex Systems",
+      "description": "Creating robust numerical algorithms and simulations to understand the dynamics of biological and neural processes."
     },
     {
-      "iconSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-10 w-10\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-width=\"2\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M11 3.055A9.001 9.001 0 1020.945 13H11V3.055z\" /><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M20.488 9H15V3.512A9.025 9.025 0 0120.488 9z\" /></svg>",
-      "title": "Single-Cell Transcriptomics",
-      "description": "Pioneering new computational methods to analyze single-cell RNA-seq data, resolving cellular heterogeneity in development and disease."
+      "iconSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-10 w-10\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-width=\"2\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122\" /></svg>",
+      "title": "Computational Neuroscience",
+      "description": "Applying advanced computational techniques to model neural circuits and decode the complex mechanisms of brain function."
     }
   ],
   "publications": [
     {
-      "title": "A scalable deep learning framework for predicting gene expression from DNA sequence",
-      "authors": ["A. Sharma", "B. Chen", "E. R. Kestrel"],
-      "journal": "Nature Genetics (2025)",
+      "title": "A scalable deep learning framework for predicting gene expression",
+      "authors": ["A. Karimi", "A. Fakhari", "Mostafa Abbaszadeh"],
+      "journal": "Journal of Computational Biology (2025)",
       "url": "#"
     },
     {
-      "title": "Mapping enhancer-promoter interactions in 3D using multiplexed CRISPR-FlowFISH",
-      "authors": ["C. Lee", "M. T. Williams", "E. R. Kestrel"],
-      "journal": "Cell (2024)",
-      "url": "#"
-    },
-    {
-      "title": "Dissecting tumor heterogeneity with spatial single-cell transcriptomics",
-      "authors": ["D. Kim", "A. Sharma", "S. J. Patel"],
-      "journal": "Science (2024)",
+      "title": "Topological data analysis reveals hidden structures in neural networks",
+      "authors": ["F. Moaven", "M. S. Ghafari", "Mostafa Abbaszadeh"],
+      "journal": "Nature Machine Intelligence (2024)",
       "url": "#"
     }
   ],
   "events": [
     {
-      "day": "28",
-      "month": "OCT",
-      "title": "Genomics Symposium 2025",
-      "description": "[[PI_NAME]] will be a keynote speaker.",
-      "location": "Virtual Event"
+      "day": "15",
+      "month": "NOV",
+      "title": "Guest Lecture: AI in Drug Discovery",
+      "description": "A talk by [[PI_NAME]] for the computer science department.",
+      "location": "Amirkabir University, Bldg. 7"
     },
     {
-      "day": "12",
-      "month": "NOV",
+      "day": "05",
+      "month": "DEC",
       "title": "Lab Recruitment Open House",
-      "description": "Info session for prospective students.",
-      "location": "Biotech Bldg, Conf. Room 3"
+      "description": "Information session for prospective graduate students.",
+      "location": "Virtual Event"
     }
   ],
   "team": {
     "principalInvestigator": {
-      "name": "Dr. Evelyn R. Kestrel",
+      "name": "Dr. Mostafa Abbaszadeh",
       "title": "Principal Investigator",
-      "bio": "Dr. Kestrel is a Professor in the Department of Genetics and Genomic Sciences. Her research focuses on developing computational tools to understand the non-coding genome. She is a recipient of the NIH Director's New Innovator Award.",
-      "imageUrl": "https://placehold.co/400x400/93C5FD/1F2937?text=PI+Photo",
+      "bio": "Dr. Abbaszadeh is an Assistant Professor in the Department of Mathematics and Computer Science. His research focuses on developing machine learning and numerical methods to solve problems in computational biology and neuroscience.",
+      "imageUrl": "/images/people/MostafaAbbaszadeh.jpg",
       "bioUrl": "#"
     },
     "members": [
       {
-        "name": "Dr. Arjun Sharma",
-        "title": "Postdoctoral Fellow",
-        "imageUrl": "https://placehold.co/300x300/E5E7EB/374151?text=A.S."
+        "name": "Fatemeh Moaven",
+        "title": "Ph.D. Student",
+        "imageUrl": "/images/people/Fatemehmoaven.jpg"
       },
       {
-        "name": "Ben Chen",
-        "title": "PhD Student (MD/PhD)",
-        "imageUrl": "https://placehold.co/300x300/E5E7EB/374151?text=B.C."
+        "name": "Mohammad Amin Ghoreyshi",
+        "title": "Ph.D. Student",
+        "imageUrl": "/images/people/M. Amin Ghoreyshi.png"
       },
       {
-        "name": "Chris Lee",
-        "title": "PhD Student",
-        "imageUrl": "https://placehold.co/300x300/E5E7EB/374151?text=C.L."
+        "name": "Mohammad Soroush Ghafari",
+        "title": "Ph.D. Student",
+        "imageUrl": "/images/people/M. Soroush Ghafari.png"
       },
       {
-        "name": "Maria Williams",
-        "title": "Research Technician",
-        "imageUrl": "https://placehold.co/300x300/E5E7EB/374151?text=M.W."
+        "name": "Masood Farahani",
+        "title": "Ph.D. Student",
+        "imageUrl": "/images/people/Masood Farahani.png"
       },
       {
-        "name": "Dr. Sarah Patel",
-        "title": "Postdoctoral Fellow",
-        "imageUrl": "https://placehold.co/300x300/E5E7EB/374151?text=S.P."
+        "name": "Nima Mohamadi",
+        "title": "Ph.D. Student",
+        "imageUrl": "/images/people/Nima Mohamadi.png"
+      },
+      {
+        "name": "Zeynab Baralak",
+        "title": "Ph.D. Student",
+        "imageUrl": "https://placehold.co/300x300/E5E7EB/374151?text=Photo"
+      },
+      {
+        "name": "Akram Karimi",
+        "title": "M.Sc. Student",
+        "imageUrl": "/images/people/akramkarimi.jpg"
+      },
+      {
+        "name": "AmirAli Fakhari Zavareh",
+        "title": "B.Sc. Student",
+        "imageUrl": "/images/people/amiraliFakhariZavareh.png"
+      },
+      {
+        "name": "Atefeh Sadeghi",
+        "title": "M.Sc. Student",
+        "imageUrl": "/images/people/atefesadeghi.jpg"
+      },
+      {
+        "name": "Baharak Hooshyar Farzin",
+        "title": "M.Sc. Student",
+        "imageUrl": "/images/people/farzin.jpg"
+      },
+      {
+        "name": "Elnaz Ramezani",
+        "title": "M.Sc. Student",
+        "imageUrl": "/images/people/Elnaz Ramezani.png"
+      },
+      {
+        "name": "Fateme Loghmanpour",
+        "title": "M.Sc. Student",
+        "imageUrl": "/images/people/fatemeloghmanpor.jpg"
+      },
+      {
+        "name": "Fatemeh Sadat Taqavi",
+        "title": "M.Sc. Student",
+        "imageUrl": "https://placehold.co/300x300/E5E7EB/374151?text=Photo"
+      },
+      {
+        "name": "Hannaneh Molaei",
+        "title": "M.Sc. Student",
+        "imageUrl": "/images/people/hanane.jpg"
+      },
+      {
+        "name": "Maedeh Nemati",
+        "title": "M.Sc. Student",
+        "imageUrl": "/images/people/maedenemati.JPG"
+      },
+      {
+        "name": "Mahya Pashapour",
+        "title": "M.Sc. Student",
+        "imageUrl": "/images/people/mahyapashapor.HEIC"
+      },
+      {
+        "name": "Melika Taheri Soufi",
+        "title": "B.Sc. Student",
+        "imageUrl": "/images/people/MelikaTaheriSoofi.jpg"
+      },
+      {
+        "name": "Mohaddese Heydari",
+        "title": "M.Sc. Student",
+        "imageUrl": "/images/people/mohadeseheidari.jpg"
+      },
+      {
+        "name": "Mohammad Reza Ahmadi",
+        "title": "M.Sc. Student",
+        "imageUrl": "/images/people/Mohammad Reza Ahmadi.png"
+      },
+      {
+        "name": "Mohammad Mahdi HajiAbbasi",
+        "title": "M.Sc. Student",
+        "imageUrl": "/images/people/hajiabbasi.png"
+      },
+      {
+        "name": "Motahareh Shabani Rahbar",
+        "title": "M.Sc. Student",
+        "imageUrl": "/images/people/motahare.jpg"
+      },
+      {
+        "name": "Parsa Rahbari",
+        "title": "B.Sc. Student",
+        "imageUrl": "/images/people/parsarahbari.jpg"
+      },
+      {
+        "name": "Pooria Rostami",
+        "title": "M.Sc. Student",
+        "imageUrl": "/images/people/poriarostami.jpg"
+      },
+      {
+        "name": "Reza Masoumzadeh",
+        "title": "M.Sc. Student",
+        "imageUrl": "/images/people/RezaMasoumzadeh.jpg"
+      },
+      {
+        "name": "Shila Rezvani",
+        "title": "M.Sc. Student",
+        "imageUrl": "/images/people/shila.JPG"
+      },
+      {
+        "name": "Ulduz Heidary",
+        "title": "M.Sc. Student",
+        "imageUrl": "/images/people/UlduzHeidary.jpg"
+      },
+      {
+        "name": "Zahra Ghobadi",
+        "title": "M.Sc. Student",
+        "imageUrl": "/images/people/zahraghobadi.jpg"
       }
+    ]
+  },
+  "contactInfo": {
+    "email": "m.abbaszadeh@aut.ac.ir",
+    "address": [
+      "MindLab",
+      "Faculty of Mathematics and Computer Science",
+      "Amirkabir University of Technology",
+      "Tehran, Iran"
     ]
   }
 }

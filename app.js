@@ -11,19 +11,16 @@ function initMobileMenu() {
     const mobileMenu = document.getElementById('mobile-menu');
     const mobileNavLinks = document.querySelectorAll('#mobile-menu a');
 
-    // Toggle mobile menu
     menuBtn.addEventListener('click', () => {
         mobileMenu.classList.toggle('hidden');
     });
 
-    // Close mobile menu when a link is clicked (for mobile only)
     mobileNavLinks.forEach(link => {
         link.addEventListener('click', () => {
             mobileMenu.classList.add('hidden');
         });
     });
 
-    // Close mobile menu when clicking outside
     document.addEventListener('click', (event) => {
         const isClickInsideMenu = mobileMenu.contains(event.target);
         const isClickOnBtn = menuBtn.contains(event.target);
@@ -47,7 +44,7 @@ async function loadDynamicData() {
         }
         const data = await response.json();
 
-        const { piName, researchPillars, publications, events, team } = data;
+        const { piName, researchPillars, publications, events, team, contactInfo } = data;
 
         // Get all container elements
         const researchGrid = document.getElementById('research-grid');
@@ -55,6 +52,8 @@ async function loadDynamicData() {
         const eventsGrid = document.getElementById('events-grid');
         const piSection = document.getElementById('pi-section');
         const teamGrid = document.getElementById('team-grid');
+        const labAddressContainer = document.getElementById('lab-address');
+        const contactEmailLink = document.getElementById('contact-email');
 
         // Populate all sections
         if (researchGrid) {
@@ -64,9 +63,8 @@ async function loadDynamicData() {
             publicationsList.innerHTML = publications.map(pub => renderPublication(pub, piName)).join('');
         }
         if (eventsGrid) {
-            // We pass piName to replace the placeholder in event descriptions
-            const piFirstName = team.principalInvestigator.name.split(' ')[1]; // "Evelyn"
-            const piShortName = `Dr. ${piFirstName}`; // "Dr. Evelyn"
+            const piFirstName = team.principalInvestigator.name.split(' ')[1];
+            const piShortName = `Dr. ${piFirstName}`;
             eventsGrid.innerHTML = events.map(event => renderEvent(event, piName, piShortName)).join('');
         }
         if (piSection) {
@@ -74,18 +72,23 @@ async function loadDynamicData() {
         }
         if (teamGrid) {
             const membersHtml = team.members.map(renderTeamMember).join('');
-            // Find the "Join Us" card and insert members *before* it
             const joinUsCard = teamGrid.querySelector('.bg-blue-50');
             if (joinUsCard) {
                 joinUsCard.insertAdjacentHTML('beforebegin', membersHtml);
             } else {
-                teamGrid.innerHTML = membersHtml; // Fallback if card not found
+                teamGrid.innerHTML = membersHtml;
             }
+        }
+        if (labAddressContainer) {
+            labAddressContainer.innerHTML = contactInfo.address.join('<br>');
+        }
+        if (contactEmailLink) {
+            contactEmailLink.href = `mailto:${contactInfo.email}`;
+            contactEmailLink.textContent = contactInfo.email;
         }
 
     } catch (error) {
         console.error("Failed to load lab data:", error);
-        // You could display a user-friendly error message in the containers
         const researchGrid = document.getElementById('research-grid');
         if (researchGrid) researchGrid.innerHTML = "<p class='text-red-500'>Failed to load research data.</p>";
     }
@@ -95,7 +98,6 @@ async function loadDynamicData() {
  * Creates HTML for a single publication, highlighting the PI's name.
  */
 function renderPublication(pub, piName) {
-    // Create the author string, bolding the PI
     const authorsHtml = pub.authors.map(author =>
         author === piName
             ? `<span class="font-bold text-gray-700 dark:text-gray-200">${author}</span>`
@@ -136,10 +138,7 @@ function renderResearchPillar(pillar) {
  * Creates HTML for a single event.
  */
 function renderEvent(event, piName, piShortName) {
-    // Replace placeholder with the PI's name
-    const descriptionHtml = event.description
-        .replace('[[PI_NAME_FULL]]', piName)
-        .replace('[[PI_NAME]]', piShortName); // Use short name for "Dr. Kestrel"
+    const descriptionHtml = event.description.replace('[[PI_NAME]]', piShortName);
 
     return `
     <div class="bg-white dark:bg-gray-900 p-6 rounded-lg shadow-lg border border-gray-200 dark:border-gray-700 flex space-x-6">
@@ -152,7 +151,7 @@ function renderEvent(event, piName, piShortName) {
             <p class="text-gray-500 dark:text-gray-400 mt-1">${descriptionHtml}</p>
             <span class="inline-flex items-center text-sm text-gray-600 dark:text-gray-300 mt-2">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-1.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" /><path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" /></svg>
-        ${event.location}
+                ${event.location}
             </span>
         </div>
     </div>`;
@@ -184,7 +183,7 @@ function renderPI(pi) {
 function renderTeamMember(member) {
     return `
     <div class="text-center bg-white dark:bg-gray-900 p-6 rounded-lg shadow-lg border border-gray-200 dark:border-gray-700">
-        <img class="w-32 h-32 rounded-full mx-auto mb-4" src="${member.imageUrl}" alt="${member.name}">
+        <img class="w-32 h-32 rounded-full mx-auto mb-4 object-cover" src="${member.imageUrl}" alt="${member.name}">
         <h4 class="text-xl font-semibold text-gray-900 dark:text-white">${member.name}</h4>
         <p class="text-gray-500 dark:text-gray-400">${member.title}</p>
     </div>`;
