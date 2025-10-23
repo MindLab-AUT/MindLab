@@ -70,7 +70,7 @@
     "principalInvestigator": {
       "name": "Dr. Mostafa Abbaszadeh",
       "title": "Principal Investigator",
-      "bio": "Dr. Abbaszadeh is an Assistant Professor in the Department of Mathematics and Computer Science. His research focuses on developing machine learning and numerical methods to solve problems in computational biology and neuroscience.",
+      "bio": "Assistant Professor @ Amirkabir University of Technology",
       "imageUrl": "/images/people/MostafaAbbaszadeh.jpg",
       "bioUrl": "#",
       "scholarUrl": "https://scholar.google.com/citations?user=9nuBcAIAAAAJ",
@@ -80,6 +80,7 @@
       {
         "name": "Fatemeh Moaven",
         "title": "Ph.D. Student",
+        "bio": "Ph.D. Student @ Amirkabir University of Technology",
         "imageUrl": "/images/people/Fatemehmoaven.jpg",
         "scholarUrl": "https://scholar.google.com/citations?user=Gg-sY0MAAAAJ&hl=en",
         "githubUrl": "https://github.com/FatemehMoaven"
@@ -87,6 +88,7 @@
       {
         "name": "Mohammad Amin Ghoreyshi",
         "title": "Ph.D. Student",
+        "bio": "Ph.D. Student @ Amirkabir University of Technology",
         "imageUrl": "/images/people/M. Amin Ghoreyshi.png",
         "scholarUrl": "https://scholar.google.com/citations?user=hK-RslEAAAAJ&hl=en",
         "githubUrl": "https://github.com/Amin-Ghoreyshi"
@@ -94,6 +96,7 @@
       {
         "name": "Mohammad Soroush Ghafari",
         "title": "Ph.D. Student",
+        "bio": "Ph.D. Student @ Amirkabir University of Technology",
         "imageUrl": "/images/people/M. Soroush Ghafari.png",
         "scholarUrl": "https://scholar.google.com/citations?user=xT1-L00AAAAJ&hl=en",
         "githubUrl": "https://github.com/Soroush-Ghafari"
@@ -101,6 +104,7 @@
       {
         "name": "Masood Farahani",
         "title": "Ph.D. Student",
+        "bio": "Ph.D. Student @ Amirkabir University of Technology",
         "imageUrl": "/images/people/Masood Farahani.png",
         "scholarUrl": "https://scholar.google.com/citations?user=f-o0RnwAAAAJ&hl=en",
         "githubUrl": "https://github.com/Masood-Farahani"
@@ -108,6 +112,7 @@
       {
         "name": "Nima Mohamadi",
         "title": "Ph.D. Student",
+        "bio": "Ph.D. Student @ Amirkabir University of Technology",
         "imageUrl": "/images/people/Nima Mohamadi.png",
         "scholarUrl": "https://scholar.google.com/citations?user=2d3_AeoAAAAJ&hl=en",
         "githubUrl": "https://github.com/Nima-Mohamadi"
@@ -115,6 +120,7 @@
       {
         "name": "Zeynab Baralak",
         "title": "Ph.D. Student",
+        "bio": "Ph.D. Student @ Amirkabir University of Technology",
         "imageUrl": "https://placehold.co/300x300/E5E7EB/374151?text=Photo",
         "scholarUrl": null,
         "githubUrl": "https://github.com/neginbrl"
@@ -122,6 +128,7 @@
       {
         "name": "Akram Karimi",
         "title": "M.Sc. Student",
+        "bio": "M.Sc. Student @ Amirkabir University of Technology",
         "imageUrl": "/images/people/akramkarimi.jpg",
         "scholarUrl": "https://scholar.google.com/citations?user=pGjSjVwAAAAJ&hl=en",
         "githubUrl": "https://github.com/akramkarimi"
@@ -129,6 +136,7 @@
       {
         "name": "AmirAli Fakhari Zavareh",
         "title": "B.Sc. Student",
+        "bio": "B.Sc. Student @ Amirkabir University of Technology",
         "imageUrl": "/images/people/amiraliFakhariZavareh.png",
         "scholarUrl": "https://scholar.google.com/citations?user=S-A-iYAAAAAJ&hl=en",
         "githubUrl": "https://github.com/Amirali-Fakhari"
@@ -136,6 +144,7 @@
       {
         "name": "Atefeh Sadeghi",
         "title": "M.Sc. Student",
+        "bio": "M.Sc. Student @ Amirkabir University of Technology",
         "imageUrl": "/images/people/atefesadeghi.jpg",
         "scholarUrl": "https://scholar.google.com/citations?user=q0-Q9NMAAAAJ&hl=en",
         "githubUrl": "https://github.com/Atefeh-Sadeghi"
@@ -143,6 +152,7 @@
       {
         "name": "Baharak Hooshyar Farzin",
         "title": "M.Sc. Student",
+        "bio": "M.Sc. Student @ Amirkabir University of Technology",
         "imageUrl": "/images/people/farzin.jpg",
         "scholarUrl": "https://scholar.google.com/citations?user=f-b-YnUAAAAJ&hl=en",
         "githubUrl": "https://github.com/Baharak-Hooshyar"
@@ -150,6 +160,7 @@
       {
         "name": "Elnaz Ramezani",
         "title": "M.Sc. Student",
+        "bio": "M.Sc. Student @ Amirkabir University of Technology",
         "imageUrl": "/images/people/Elnaz Ramezani.png",
         "scholarUrl": "https://scholar.google.com/citations?user=6-J2b-YAAAAJ&hl=en",
         "githubUrl": "https://github.com/Elnaz-Ramezani"
@@ -157,6 +168,7 @@
       {
         "name": "Fateme Loghmanpour",
         "title": "M.Sc. Student",
+        "bio": "M.Sc. Student @ Amirkabir University of Technology",
         "imageUrl": "/images/people/fatemeloghmanpor.jpg",
         "scholarUrl": "https://scholar.google.com/citations?user=W1i3jEcAAAAJ&hl=en",
         "githubUrl": "https://github.com/F-Loghmanpour"
@@ -164,6 +176,7 @@
       {
         "name": "Fatemeh Sadat Taqavi",
         "title": "M.Sc. Student",
+        "bio": "M.Sc. Student @ Amirkabir University of Technology",
         "imageUrl": "https://placehold.co/300x300/E5E7EB/374151?text=Photo",
         "scholarUrl": null,
         "githubUrl": "https://github.com/F-Taqavi"
@@ -171,6 +184,7 @@
       {
         "name": "Hannaneh Molaei",
         "title": "M.Sc. Student",
+        "bio": "M.Sc. Student @ Amirkabir University of Technology",
         "imageUrl": "/images/people/hanane.jpg",
         "scholarUrl": "https://scholar.google.com/citations?user=M_sX3PIAAAAJ&hl=en",
         "githubUrl": "https://github.com/HannanehMolaei"
@@ -178,6 +192,7 @@
       {
         "name": "Maedeh Nemati",
         "title": "M.Sc. Student",
+        "bio": "M.Sc. Student @ Amirkabir University of Technology",
         "imageUrl": "/images/people/maedenemati.JPG",
         "scholarUrl": "https://scholar.google.com/citations?user=j5b-AUAAAAAJ&hl=en",
         "githubUrl": "https://github.com/Maedeh-Nemati"
@@ -185,6 +200,7 @@
       {
         "name": "Mahya Pashapour",
         "title": "M.Sc. Student",
+        "bio": "M.Sc. Student @ Amirkabir University of Technology",
         "imageUrl": "/images/people/mahyapashapor.HEIC",
         "scholarUrl": "https://scholar.google.com/citations?user=mK-4i-UAAAAJ&hl=en",
         "githubUrl": "https://github.com/Mahya-Pashapour"
@@ -192,6 +208,7 @@
       {
         "name": "Melika Taheri Soufi",
         "title": "B.Sc. Student",
+        "bio": "B.Sc. Student @ Amirkabir University of Technology",
         "imageUrl": "/images/people/MelikaTaheriSoofi.jpg",
         "scholarUrl": "https://scholar.google.com/citations?user=wU-c-XAAAAAJ&hl=en",
         "githubUrl": "https://github.com/melika-taheri"
@@ -199,6 +216,7 @@
       {
         "name": "Mohaddese Heydari",
         "title": "M.Sc. Student",
+        "bio": "M.Sc. Student @ Amirkabir University of Technology",
         "imageUrl": "/images/people/mohadeseheidari.jpg",
         "scholarUrl": "https://scholar.google.com/citations?user=gH68f-wAAAAJ&hl=en",
         "githubUrl": "https://github.com/mohaddese-heydari"
@@ -206,6 +224,7 @@
       {
         "name": "Mohammad Reza Ahmadi",
         "title": "M.Sc. Student",
+        "bio": "M.Sc. Student @ Amirkabir University of Technology",
         "imageUrl": "/images/people/Mohammad Reza Ahmadi.png",
         "scholarUrl": "https://scholar.google.com/citations?user=dF-c-YAAAAAJ&hl=en",
         "githubUrl": "https://github.com/MohammadReza-Ahmadi"
@@ -213,6 +232,7 @@
       {
         "name": "Mohammad Mahdi HajiAbbasi",
         "title": "M.Sc. Student",
+        "bio": "M.Sc. Student @ Amirkabir University of Technology",
         "imageUrl": "/images/people/hajiabbasi.png",
         "scholarUrl": "https://scholar.google.com/citations?user=u-c-XAAAAAJ&hl=en",
         "githubUrl": "https://github.com/HajiAbbasi-M"
@@ -220,6 +240,7 @@
       {
         "name": "Motahareh Shabani Rahbar",
         "title": "M.Sc. Student",
+        "bio": "M.Sc. Student @ Amirkabir University of Technology",
         "imageUrl": "/images/people/motahare.jpg",
         "scholarUrl": "https://scholar.google.com/citations?user=gH68f-wAAAAJ&hl=en",
         "githubUrl": "https://github.com/Motahareh-Shabani"
@@ -227,13 +248,15 @@
       {
         "name": "Parsa Rahbari",
         "title": "B.Sc. Student",
-        "imageUrl": "/images/people/parsarahbari.jpg",
+        "bio": "B.Sc. Student @ Amirkabir University of Technology",
+        "imageUrl": "/images/people/parsarahbari.png",
         "scholarUrl": "https://scholar.google.com/citations?user=wU-c-XAAAAAJ&hl=en",
         "githubUrl": "https://github.com/Parsa-Rahbari"
       },
       {
         "name": "Pooria Rostami",
         "title": "M.Sc. Student",
+        "bio": "M.Sc. Student @ Amirkabir University of Technology",
         "imageUrl": "/images/people/poriarostami.jpg",
         "scholarUrl": "https://scholar.google.com/citations?user=S-A-iYAAAAAJ&hl=en",
         "githubUrl": "https://github.com/Pooria-Rostami"
@@ -241,6 +264,7 @@
       {
         "name": "Reza Masoumzadeh",
         "title": "M.Sc. Student",
+        "bio": "M.Sc. Student @ Amirkabir University of Technology",
         "imageUrl": "/images/people/RezaMasoumzadeh.jpg",
         "scholarUrl": "https://scholar.google.com/citations?user=dF-c-YAAAAAJ&hl=en",
         "githubUrl": "https://github.com/Reza-Masoumzadeh"
@@ -248,6 +272,7 @@
       {
         "name": "Shila Rezvani",
         "title": "M.Sc. Student",
+        "bio": "M.Sc. Student @ Amirkabir University of Technology",
         "imageUrl": "/images/people/shila.JPG",
         "scholarUrl": "https://scholar.google.com/citations?user=xT1-L00AAAAJ&hl=en",
         "githubUrl": "https://github.com/Shila-Rezvani"
@@ -255,6 +280,7 @@
       {
         "name": "Ulduz Heidary",
         "title": "M.Sc. Student",
+        "bio": "M.Sc. Student @ Amirkabir University of Technology",
         "imageUrl": "/images/people/UlduzHeidary.jpg",
         "scholarUrl": "https://scholar.google.com/citations?user=W1i3jEcAAAAJ&hl=en",
         "githubUrl": "https://github.com/Ulduz-Heidary"
@@ -262,6 +288,7 @@
       {
         "name": "Zahra Ghobadi",
         "title": "M.Sc. Student",
+        "bio": "M.Sc. Student @ Amirkabir University of Technology",
         "imageUrl": "/images/people/zahraghobadi.jpg",
         "scholarUrl": "https://scholar.google.com/citations?user=pGjSjVwAAAAJ&hl=en",
         "githubUrl": "https://github.com/Zahra-Ghobadi"
