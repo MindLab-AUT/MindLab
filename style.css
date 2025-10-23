@@ -1,10 +1,13 @@
-/* Set the Inter font as the default */
-body {
-  font-family: "Inter", sans-serif;
+/* Add this to the very top */
+html {
   scroll-behavior: smooth;
 }
 
-/* Simple scrollbar styling for a more modern feel */
+/* Set the Inter font as the default */
+body {
+  font-family: "Inter", sans-serif;
+}
+/* ... (existing scrollbar styles) ... */
 ::-webkit-scrollbar {
   width: 6px;
 }
@@ -17,4 +20,16 @@ body {
 }
 ::-webkit-scrollbar-thumb:hover {
   background: #4b5563; /* dark:bg-gray-600 */
+}
+
+/* Add these new styles at the bottom for the team card hover effect */
+.team-card-overlay {
+  background-color: rgba(
+    17,
+    24,
+    39,
+    0.85
+  ); /* dark:bg-gray-900 with 85% opacity */
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
 }

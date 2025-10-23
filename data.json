@@ -20,16 +20,34 @@
   ],
   "publications": [
     {
-      "title": "A scalable deep learning framework for predicting gene expression",
-      "authors": ["A. Karimi", "A. Fakhari", "Mostafa Abbaszadeh"],
-      "journal": "Journal of Computational Biology (2025)",
-      "url": "#"
+      "title": "A generalized framework for learning algorithmic solutions for inverse problems",
+      "authors": ["M Abbaszadeh", "A Ramazani", "M Dehghan"],
+      "journal": "Expert Systems with Applications, 2025",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9nuBcAIAAAAJ&citation_for_view=9nuBcAIAAAAJ:u5yEVq-j20EC"
     },
     {
-      "title": "Topological data analysis reveals hidden structures in neural networks",
-      "authors": ["F. Moaven", "M. S. Ghafari", "Mostafa Abbaszadeh"],
-      "journal": "Nature Machine Intelligence (2024)",
-      "url": "#"
+      "title": "Physics-informed generative adversarial networks for robust and scalable solution of non-linear PDEs",
+      "authors": ["M Abbaszadeh", "A Ramazani", "M Dehghan"],
+      "journal": "Engineering Applications of Artificial Intelligence, 2025",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9nuBcAIAAAAJ&citation_for_view=9nuBcAIAAAAJ:Y0pCki6q_DkC"
+    },
+    {
+      "title": "A unified framework for data-driven solution of operators and partial differential equations",
+      "authors": ["M Abbaszadeh", "A Ramazani", "M Dehghan"],
+      "journal": "2025",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9nuBcAIAAAAJ&citation_for_view=9nuBcAIAAAAJ:qjMakFHDy7sC"
+    },
+    {
+      "title": "Learning the solution operator of parametric PDEs with physics-informed generative adversarial networks",
+      "authors": ["M Abbaszadeh", "A Ramazani", "M Dehghan"],
+      "journal": "Neural Networks, 2025",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9nuBcAIAAAAJ&citation_for_view=9nuBcAIAAAAJ:2E-lipH-0-8C"
+    },
+    {
+      "title": "Dynaformer: A Dynamic Attention-based Transformer for Multivariate Time Series Forecasting",
+      "authors": ["A Ramazani", "M Abbaszadeh", "M Dehghan"],
+      "journal": "2025",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9nuBcAIAAAAJ&citation_for_view=9nuBcAIAAAAJ:9yKSN-GCB0IC"
     }
   ],
   "events": [
@@ -54,143 +72,199 @@
       "title": "Principal Investigator",
       "bio": "Dr. Abbaszadeh is an Assistant Professor in the Department of Mathematics and Computer Science. His research focuses on developing machine learning and numerical methods to solve problems in computational biology and neuroscience.",
       "imageUrl": "/images/people/MostafaAbbaszadeh.jpg",
-      "bioUrl": "#"
+      "bioUrl": "#",
+      "scholarUrl": "https://scholar.google.com/citations?user=9nuBcAIAAAAJ",
+      "githubUrl": "https://github.com/m-abbaszadeh"
     },
     "members": [
       {
         "name": "Fatemeh Moaven",
         "title": "Ph.D. Student",
-        "imageUrl": "/images/people/Fatemehmoaven.jpg"
+        "imageUrl": "/images/people/Fatemehmoaven.jpg",
+        "scholarUrl": "https://scholar.google.com/citations?user=Gg-sY0MAAAAJ&hl=en",
+        "githubUrl": "https://github.com/FatemehMoaven"
       },
       {
         "name": "Mohammad Amin Ghoreyshi",
         "title": "Ph.D. Student",
-        "imageUrl": "/images/people/M. Amin Ghoreyshi.png"
+        "imageUrl": "/images/people/M. Amin Ghoreyshi.png",
+        "scholarUrl": "https://scholar.google.com/citations?user=hK-RslEAAAAJ&hl=en",
+        "githubUrl": "https://github.com/Amin-Ghoreyshi"
       },
       {
         "name": "Mohammad Soroush Ghafari",
         "title": "Ph.D. Student",
-        "imageUrl": "/images/people/M. Soroush Ghafari.png"
+        "imageUrl": "/images/people/M. Soroush Ghafari.png",
+        "scholarUrl": "https://scholar.google.com/citations?user=xT1-L00AAAAJ&hl=en",
+        "githubUrl": "https://github.com/Soroush-Ghafari"
       },
       {
         "name": "Masood Farahani",
         "title": "Ph.D. Student",
-        "imageUrl": "/images/people/Masood Farahani.png"
+        "imageUrl": "/images/people/Masood Farahani.png",
+        "scholarUrl": "https://scholar.google.com/citations?user=f-o0RnwAAAAJ&hl=en",
+        "githubUrl": "https://github.com/Masood-Farahani"
       },
       {
         "name": "Nima Mohamadi",
         "title": "Ph.D. Student",
-        "imageUrl": "/images/people/Nima Mohamadi.png"
+        "imageUrl": "/images/people/Nima Mohamadi.png",
+        "scholarUrl": "https://scholar.google.com/citations?user=2d3_AeoAAAAJ&hl=en",
+        "githubUrl": "https://github.com/Nima-Mohamadi"
       },
       {
         "name": "Zeynab Baralak",
         "title": "Ph.D. Student",
-        "imageUrl": "https://placehold.co/300x300/E5E7EB/374151?text=Photo"
+        "imageUrl": "https://placehold.co/300x300/E5E7EB/374151?text=Photo",
+        "scholarUrl": null,
+        "githubUrl": "https://github.com/neginbrl"
       },
       {
         "name": "Akram Karimi",
         "title": "M.Sc. Student",
-        "imageUrl": "/images/people/akramkarimi.jpg"
+        "imageUrl": "/images/people/akramkarimi.jpg",
+        "scholarUrl": "https://scholar.google.com/citations?user=pGjSjVwAAAAJ&hl=en",
+        "githubUrl": "https://github.com/akramkarimi"
       },
       {
         "name": "AmirAli Fakhari Zavareh",
         "title": "B.Sc. Student",
-        "imageUrl": "/images/people/amiraliFakhariZavareh.png"
+        "imageUrl": "/images/people/amiraliFakhariZavareh.png",
+        "scholarUrl": "https://scholar.google.com/citations?user=S-A-iYAAAAAJ&hl=en",
+        "githubUrl": "https://github.com/Amirali-Fakhari"
       },
       {
         "name": "Atefeh Sadeghi",
         "title": "M.Sc. Student",
-        "imageUrl": "/images/people/atefesadeghi.jpg"
+        "imageUrl": "/images/people/atefesadeghi.jpg",
+        "scholarUrl": "https://scholar.google.com/citations?user=q0-Q9NMAAAAJ&hl=en",
+        "githubUrl": "https://github.com/Atefeh-Sadeghi"
       },
       {
         "name": "Baharak Hooshyar Farzin",
         "title": "M.Sc. Student",
-        "imageUrl": "/images/people/farzin.jpg"
+        "imageUrl": "/images/people/farzin.jpg",
+        "scholarUrl": "https://scholar.google.com/citations?user=f-b-YnUAAAAJ&hl=en",
+        "githubUrl": "https://github.com/Baharak-Hooshyar"
       },
       {
         "name": "Elnaz Ramezani",
         "title": "M.Sc. Student",
-        "imageUrl": "/images/people/Elnaz Ramezani.png"
+        "imageUrl": "/images/people/Elnaz Ramezani.png",
+        "scholarUrl": "https://scholar.google.com/citations?user=6-J2b-YAAAAJ&hl=en",
+        "githubUrl": "https://github.com/Elnaz-Ramezani"
       },
       {
         "name": "Fateme Loghmanpour",
         "title": "M.Sc. Student",
-        "imageUrl": "/images/people/fatemeloghmanpor.jpg"
+        "imageUrl": "/images/people/fatemeloghmanpor.jpg",
+        "scholarUrl": "https://scholar.google.com/citations?user=W1i3jEcAAAAJ&hl=en",
+        "githubUrl": "https://github.com/F-Loghmanpour"
       },
       {
         "name": "Fatemeh Sadat Taqavi",
         "title": "M.Sc. Student",
-        "imageUrl": "https://placehold.co/300x300/E5E7EB/374151?text=Photo"
+        "imageUrl": "https://placehold.co/300x300/E5E7EB/374151?text=Photo",
+        "scholarUrl": null,
+        "githubUrl": "https://github.com/F-Taqavi"
       },
       {
         "name": "Hannaneh Molaei",
         "title": "M.Sc. Student",
-        "imageUrl": "/images/people/hanane.jpg"
+        "imageUrl": "/images/people/hanane.jpg",
+        "scholarUrl": "https://scholar.google.com/citations?user=M_sX3PIAAAAJ&hl=en",
+        "githubUrl": "https://github.com/HannanehMolaei"
       },
       {
         "name": "Maedeh Nemati",
         "title": "M.Sc. Student",
-        "imageUrl": "/images/people/maedenemati.JPG"
+        "imageUrl": "/images/people/maedenemati.JPG",
+        "scholarUrl": "https://scholar.google.com/citations?user=j5b-AUAAAAAJ&hl=en",
+        "githubUrl": "https://github.com/Maedeh-Nemati"
       },
       {
         "name": "Mahya Pashapour",
         "title": "M.Sc. Student",
-        "imageUrl": "/images/people/mahyapashapor.HEIC"
+        "imageUrl": "/images/people/mahyapashapor.HEIC",
+        "scholarUrl": "https://scholar.google.com/citations?user=mK-4i-UAAAAJ&hl=en",
+        "githubUrl": "https://github.com/Mahya-Pashapour"
       },
       {
         "name": "Melika Taheri Soufi",
         "title": "B.Sc. Student",
-        "imageUrl": "/images/people/MelikaTaheriSoofi.jpg"
+        "imageUrl": "/images/people/MelikaTaheriSoofi.jpg",
+        "scholarUrl": "https://scholar.google.com/citations?user=wU-c-XAAAAAJ&hl=en",
+        "githubUrl": "https://github.com/melika-taheri"
       },
       {
         "name": "Mohaddese Heydari",
         "title": "M.Sc. Student",
-        "imageUrl": "/images/people/mohadeseheidari.jpg"
+        "imageUrl": "/images/people/mohadeseheidari.jpg",
+        "scholarUrl": "https://scholar.google.com/citations?user=gH68f-wAAAAJ&hl=en",
+        "githubUrl": "https://github.com/mohaddese-heydari"
       },
       {
         "name": "Mohammad Reza Ahmadi",
         "title": "M.Sc. Student",
-        "imageUrl": "/images/people/Mohammad Reza Ahmadi.png"
+        "imageUrl": "/images/people/Mohammad Reza Ahmadi.png",
+        "scholarUrl": "https://scholar.google.com/citations?user=dF-c-YAAAAAJ&hl=en",
+        "githubUrl": "https://github.com/MohammadReza-Ahmadi"
       },
       {
         "name": "Mohammad Mahdi HajiAbbasi",
         "title": "M.Sc. Student",
-        "imageUrl": "/images/people/hajiabbasi.png"
+        "imageUrl": "/images/people/hajiabbasi.png",
+        "scholarUrl": "https://scholar.google.com/citations?user=u-c-XAAAAAJ&hl=en",
+        "githubUrl": "https://github.com/HajiAbbasi-M"
       },
       {
         "name": "Motahareh Shabani Rahbar",
         "title": "M.Sc. Student",
-        "imageUrl": "/images/people/motahare.jpg"
+        "imageUrl": "/images/people/motahare.jpg",
+        "scholarUrl": "https://scholar.google.com/citations?user=gH68f-wAAAAJ&hl=en",
+        "githubUrl": "https://github.com/Motahareh-Shabani"
       },
       {
         "name": "Parsa Rahbari",
         "title": "B.Sc. Student",
-        "imageUrl": "/images/people/parsarahbari.jpg"
+        "imageUrl": "/images/people/parsarahbari.jpg",
+        "scholarUrl": "https://scholar.google.com/citations?user=wU-c-XAAAAAJ&hl=en",
+        "githubUrl": "https://github.com/Parsa-Rahbari"
       },
       {
         "name": "Pooria Rostami",
         "title": "M.Sc. Student",
-        "imageUrl": "/images/people/poriarostami.jpg"
+        "imageUrl": "/images/people/poriarostami.jpg",
+        "scholarUrl": "https://scholar.google.com/citations?user=S-A-iYAAAAAJ&hl=en",
+        "githubUrl": "https://github.com/Pooria-Rostami"
       },
       {
         "name": "Reza Masoumzadeh",
         "title": "M.Sc. Student",
-        "imageUrl": "/images/people/RezaMasoumzadeh.jpg"
+        "imageUrl": "/images/people/RezaMasoumzadeh.jpg",
+        "scholarUrl": "https://scholar.google.com/citations?user=dF-c-YAAAAAJ&hl=en",
+        "githubUrl": "https://github.com/Reza-Masoumzadeh"
       },
       {
         "name": "Shila Rezvani",
         "title": "M.Sc. Student",
-        "imageUrl": "/images/people/shila.JPG"
+        "imageUrl": "/images/people/shila.JPG",
+        "scholarUrl": "https://scholar.google.com/citations?user=xT1-L00AAAAJ&hl=en",
+        "githubUrl": "https://github.com/Shila-Rezvani"
       },
       {
         "name": "Ulduz Heidary",
         "title": "M.Sc. Student",
-        "imageUrl": "/images/people/UlduzHeidary.jpg"
+        "imageUrl": "/images/people/UlduzHeidary.jpg",
+        "scholarUrl": "https://scholar.google.com/citations?user=W1i3jEcAAAAJ&hl=en",
+        "githubUrl": "https://github.com/Ulduz-Heidary"
       },
       {
         "name": "Zahra Ghobadi",
         "title": "M.Sc. Student",
-        "imageUrl": "/images/people/zahraghobadi.jpg"
+        "imageUrl": "/images/people/zahraghobadi.jpg",
+        "scholarUrl": "https://scholar.google.com/citations?user=pGjSjVwAAAAJ&hl=en",
+        "githubUrl": "https://github.com/Zahra-Ghobadi"
       }
     ]
   },
