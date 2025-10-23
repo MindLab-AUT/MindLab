@@ -210,7 +210,8 @@ function renderTeamMember(member) {
     return `
     <div class="group relative text-center bg-white dark:bg-gray-900 rounded-lg shadow-lg border border-gray-200 dark:border-gray-700 overflow-hidden">
         <img class="w-full aspect-square object-cover" src="${member.imageUrl}" alt="${member.name}" onerror="this.src='https://placehold.co/300x300/E5E7EB/374151?text=Photo';">
-        <div class="p-4">
+        
+        <div class="p-4 h-28 flex flex-col justify-center">
             <h4 class="text-lg font-semibold text-gray-900 dark:text-white">${member.name}</h4>
             <p class="text-gray-500 dark:text-gray-400">${member.title}</p>
         </div>
